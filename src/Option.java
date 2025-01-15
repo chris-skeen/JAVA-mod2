@@ -26,7 +26,7 @@ public class Option extends Convert {
             System.out.println("Enter amount (USD): ");
             Scanner scannerDollar = new Scanner(System.in);
             int dollar = scannerDollar.nextInt();
-            conversionNumber = convert.usd2Peso(dollar);
+            double conversionNumber = convert.usd2Peso(dollar);
             String finalOutput = "Your conversion is $" + conversionNumber + " peso's!";
 
 
@@ -35,7 +35,7 @@ public class Option extends Convert {
             System.out.println("Enter amount (USD): ");
             Scanner scannerDollar = new Scanner(System.in);
             int dollar = scannerDollar.nextInt();
-            conversionNumber = convert.usd2Euro(dollar);
+            double  conversionNumber = convert.usd2Euro(dollar);
             String finalOutput = "Your conversion is $" + convesionNumber + " euro's";
 
         } else if (option.equals("Yen")) {
@@ -43,7 +43,7 @@ public class Option extends Convert {
             System.out.println("Enter amount (USD): ");
             Scanner scannerDollar = new Scanner(System.in);
             int dollar = scannerDollar.nextInt();
-            conversionNumber = convert.usd2Yen(dollar);
+            double conversionNumber = convert.usd2Yen(dollar);
 
         }
         return finalOutput;
