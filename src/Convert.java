@@ -1,3 +1,4 @@
+
 public class Convert {
 // THIS FILE WILL HANDLE CONVERSIONS.
     public static double usd2Peso(double dollar) {
@@ -15,4 +16,6 @@ public class Convert {
     public static double usd2Pound(double dollar) {
         return dollar * 0.82;
     }
+
+    public static double usd2Won(double dollar) {return dollar * 1454.54;}
 }
